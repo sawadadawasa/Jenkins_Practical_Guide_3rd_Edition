@@ -50,7 +50,7 @@ public class SampleAction {
 
         lastName = request.getParameter("LastName");
         if ((lastName == null) || ("".equals(lastName))) {
-            return true;
+            return false;
         }
 
         return true;
