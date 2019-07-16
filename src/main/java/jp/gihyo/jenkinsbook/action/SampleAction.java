@@ -52,8 +52,7 @@ public class SampleAction {
         if ((lastName == null) || ("".equals(lastName))) {
             return false;
         }
-
-        return false;
+        return true;
     }
 
     /**
