@@ -53,7 +53,7 @@ public class SampleAction {
             return false;
         }
 
-        return fale;
+        return false;
     }
 
     /**
